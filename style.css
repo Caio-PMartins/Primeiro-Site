@@ -1,0 +1,1126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #303841;
+    position: fixed;
+    width: 100%;
+}
+
+.logo a {
+    color: white;
+    font-size: 30px;
+}
+
+nav .nav-menu {
+    display: flex;
+    gap: 20px;
+}
+
+nav .nav-menu li a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.hamburguer {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius:2px;
+    margin: 5px auto;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.area-container {
+    background-image: url(/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    margin-top: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.container h1 {
+    color: white;
+    font-size: 80px;
+    margin-bottom: 10px;
+    font-weight: 600;
+
+}
+
+.container h2 {
+    color: white;
+    font-size: 25px;
+}
+
+
+#geral1 {
+    margin-top: 40px;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.area-servicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin-top: 50px;
+    height: auto;
+}
+
+.area-servicos h6  {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight:400;
+    color: #000000;
+}
+
+.area-servicos span {
+    margin-top: 20px;
+    width: 60px;
+    display: flex;
+    border: 2px solid #00adb5;
+    margin-bottom: 30px;
+}
+
+.area-fotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.foto1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+}
+
+.foto1 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    margin-bottom: 30px;
+}
+
+
+.foto1 h3 {
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+
+.foto1 p {
+    font-size: 15px;
+    color: #000;
+    text-align: center;
+}
+
+
+
+
+/* Area about */
+
+
+#geral2 {
+    margin-top: 40px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebebeb;
+}
+
+.area-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin-top: 40px;
+    height: auto;
+}
+
+.area-about h6  {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight:400;
+    color: #000000;
+}
+
+.area-about span {
+    margin-top: 20px;
+    width: 60px;
+    display: flex;
+    border: 2px solid #00adb5;
+    margin-bottom: 30px;
+}
+
+.area-txt--foto {
+    display: flex;
+    align-items: center;
+}
+
+#geral2 .text {
+    background-color: white;
+    text-align: center;
+    width: 386px;
+    padding: 50px 20px;
+    height: 350px;
+    
+} 
+
+.text h4 {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.imagem-about img {
+    width: 370px;
+}
+
+
+/* area contact */
+
+
+#geral3 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.area-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin-top: 40px;
+    height: auto;
+}
+
+.area-contato h6  {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight:400;
+    color: #000000;
+}
+
+.area-contato span {
+    margin-top: 20px;
+    width: 60px;
+    display: flex;
+    border: 2px solid #00adb5;
+    margin-bottom: 30px;
+}
+
+.text-form {
+    display: flex;
+    gap: 220px;
+    max-width: 1280px;
+    
+}
+
+.text-form .txt {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-form .txr p {
+    font-size: 13px;
+}
+
+.imagem--email {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.imagem--email img {
+    width: 30px;
+    height: auto;
+}
+
+.imagem--email a {
+    color: #4dadb5;
+    text-align: center;
+}
+
+
+.formulario {
+    padding: 5px 32px;
+    height: 300px;
+    width: 550px;
+}
+
+.formulario form [type='text'] {
+    width: 225px;
+    padding: 8px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #dedfdf;
+}
+
+.formulario form [type='text']::placeholder {
+    font-size: 15px;
+}
+
+
+.formulario form [type='tel'] {
+    width: 225px;
+    padding: 8px;
+    margin-left: 30px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #dedfdf;
+}
+
+.formulario form [type='tel']::placeholder {
+    font-size: 15px;
+}
+
+.formulario form [type='email'] {
+    width: 100%;
+    margin-top: 15px;
+    padding: 8px;
+    outline: none;
+    border: 1px solid #dedfdf;
+    border-radius: 4px;
+}
+
+.formulario form [type='email']::placeholder {
+    font-size: 15px;
+}
+
+
+.formulario form .mensagem {
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+    border: 1px solid #dedfdf;
+}
+
+.formulario form .mensagem::placeholder {
+    font-size: 15px;
+}
+
+.formulario form [type='submit'] {
+    width: 100%;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    background-color: #00adb5;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.formulario form [type='submit']:hover {
+    background-color: #19A7AF;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333333;
+    height: 230px;
+}
+
+
+footer .menu-footer ul {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+
+footer .menu-footer ul a {
+    color: white;
+    font-size: 14px;
+}
+
+footer .menu-footer ul a:hover {
+    color: #0fadb5;
+}
+
+
+footer .menu2-footer p {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+
+footer .menu2-footer p a {
+    font-weight: none;
+    color: #00adb5;
+}
+
+footer .menu2-footer p a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+/* RESPONSIVO */
+
+
+
+
+
+
+
+
+
+@media (max-width:1024px) {
+        
+    .text-form {
+        display: flex;
+        gap: 100px;
+        max-width: 1280px;
+        
+    }
+}
+
+
+/*Responsivo Tablet*/
+
+@media (max-width:768px) {
+
+    /* Responsivo Services */
+
+    nav ul {
+        gap: 300px;
+    }
+    
+
+    .area-fotos {
+        flex-wrap: wrap;
+    }
+
+    .foto1 {
+        min-width: 300px;
+        margin-bottom: 50px;
+    }
+
+    .area-txt--foto {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+
+
+    /* Responsivo About */
+
+    #geral2 {
+        margin-top: 0px;
+        height: 125vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ebebeb;
+    }
+
+
+    .area-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: none;
+        margin-top: 0px;
+        width: 100%;
+    }
+    
+    #geral2 .text {
+        background-color: white;
+        text-align: center;
+        width: 100%;
+        padding: 50px 20px;
+        height: 220px; 
+    } 
+    
+    .text h4 {
+        margin-top: 30px;
+        text-align: center;
+        font-weight: normal;
+    }
+    
+    .imagem-about img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 760px;
+        height: 400px;
+        margin-top: 00px;  
+    }
+
+
+    /* Responsivo Formulario */
+
+
+    
+    .area-contato {
+        margin-top: 40px;    
+    }
+    
+
+    #geral3 {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: none;
+    }
+    
+    .text-form .txt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .text-form .txt p {
+        font-size: 15px;
+    }
+    
+    .imagem--email {
+        margin-left: 0px;
+    }
+    
+    
+    .formulario {
+        padding: 5px 0px;
+        width: 700px;
+        height: auto;
+    }
+    
+    .formulario form [type='text'] {
+        width: 100%;
+        padding: 8px;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid #dedfdf;
+        margin-bottom: 10px;
+    }
+    
+    .formulario form [type='text']::placeholder {
+        font-size: 15px;
+    }
+    
+    
+    .formulario form [type='tel'] {
+        width: 100%;
+        padding: 8px;
+        margin-left: 0px;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid #dedfdf;
+    }
+    
+    .formulario form [type='tel']::placeholder {
+        font-size: 15px;
+    }
+    
+    .formulario form [type='email'] {
+        width: 100%;
+        margin-top: 15px;
+        padding: 8px;
+        outline: none;
+        border: 1px solid #dedfdf;
+        border-radius: 4px;
+    }
+    
+    .formulario form [type='email']::placeholder {
+        font-size: 15px;
+    }
+    
+    
+    .formulario form .mensagem {
+        width: 100%;
+        height: 100px;
+        margin-top: 15px;
+        border: 1px solid #dedfdf;
+    }
+    
+}    .formulario form .mensagem::placeholder {
+        font-size: 15px;
+    }
+    
+    .formulario form [type='submit'] {
+        width: 100%;
+        margin-top: 15px;
+        text-transform: uppercase;
+        font-size: 15px;
+        color: white;
+        background-color: #00adb5;
+        padding: 8px;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 90px;
+    }
+    
+    .formulario form [type='submit']:hover {
+        background-color: #19A7AF;
+    
+    
+}
+
+@media (max-width:425px) {
+    
+
+    /* Responsivo menu */
+
+    nav .nav-menu li a {
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .hamburguer {
+        display: block;
+    }
+
+    .hamburguer.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburguer.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburguer.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    
+    .nav-menu {
+        position: absolute;
+        right: -100%;
+        top: 80px;
+        gap: 0;
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        transition: 1s;
+        border-radius: 0 0 20px 20px ;
+        text-align: center;
+    } 
+
+    .nav-menu li {
+        margin: 16px 0px;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+  
+    /* RESPONSIVO  BANNER*/
+    
+    .area-container {
+        background-image: url(/images/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60vh;
+        margin-top: 0px;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+    }
+    
+    .container h1 {
+        color: white;
+        font-size: 60px;
+        margin-bottom: 10px;
+        font-weight: 600;
+        text-align: center;
+    
+    }
+    
+    .container h2 {
+        color: white;
+        font-size: 20px;
+    }
+
+    
+    /* RESPONSIVO SERVIÇOS */
+
+    .foto1 img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 15px;
+    }
+
+
+    /*Responsivo about*/
+    
+
+    #geral2 {
+        margin-top: 20px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ebebeb;
+    }
+    
+    .area-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px;
+        margin-top: 40px;
+        height: auto;
+    }
+    
+    
+    .area-txt--foto {
+        display: flex;
+        align-items: center;
+    }
+    
+    #geral2 .text {
+        background-color: white;
+        text-align: center;
+        width: 386px;
+        padding: 50px 20px;
+        height: 350px;
+        
+    } 
+    
+    .text h4 {
+        margin-top: 30px;
+        text-align: center;
+        font-weight: normal;
+    }
+    
+    .imagem-about img {
+        width: 370px;
+        height: 300px;
+    }
+
+
+
+
+    /* RESPONSIVO CONTATO*/
+
+
+    #geral3 {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .text-form {
+        display: flex;
+        gap: 15px;
+        max-width: 400px;
+        margin-bottom: 70px;
+        
+    }
+    
+    .text-form .txt {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .text-form .txr p {
+        font-size: 13px;
+    }
+    
+    .imagem--email {
+        display: flex;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    
+    .imagem--email img {
+        width: 30px;
+        height: auto;
+    }
+    
+    .imagem--email a {
+        color: #4dadb5;
+        text-align: center;
+    }
+    
+    
+    .formulario {
+        padding: 5px 0px;
+        height: 300px;
+        max-width: 400px;
+    }
+    
+    .formulario form [type='text'] {
+        width: 100%;
+        padding: 8px;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid #dedfdf;
+    }
+    
+    .formulario form [type='text']::placeholder {
+        font-size: 15px;
+    }
+    
+    
+    .formulario form [type='tel'] {
+        width: 100%;
+        padding: 8px;
+        margin-left: 0px;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid #dedfdf;
+    }
+    
+    .formulario form [type='tel']::placeholder {
+        font-size: 15px;
+    }
+    
+    .formulario form [type='email'] {
+        width: 100%;
+        margin-top: 15px;
+        padding: 8px;
+        outline: none;
+        border: 1px solid #dedfdf;
+        border-radius: 4px;
+    }
+    
+    .formulario form [type='email']::placeholder {
+        font-size: 15px;
+    }
+    
+    
+    .formulario form .mensagem {
+        width: 100%;
+        height: 100px;
+        margin-top: 15px;
+        border: 1px solid #dedfdf;
+    }
+    
+    .formulario form .mensagem::placeholder {
+        font-size: 15px;
+    }
+    
+    .formulario form [type='submit'] {
+        width: 100%;
+        margin-top: 15px;
+        text-transform: uppercase;
+        font-size: 15px;
+        color: white;
+        background-color: #00adb5;
+        padding: 8px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .formulario form [type='submit']:hover {
+        background-color: #19A7AF;
+    }
+
+
+}
+
+
+
+
+
+@media (max-width:375px) {
+
+
+    .imagem-about img {
+        width: 340px;
+        height: 300px;
+    }
+
+    .text-form {
+        display: flex;
+        gap: 15px;
+        max-width: 340px;
+        margin-bottom: 70px;
+        
+    }
+    
+    .text-form .txt {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .text-form .txr p {
+        font-size: 13px;
+    }
+    
+    .imagem--email {
+        display: flex;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    
+    .imagem--email img {
+        width: 30px;
+        height: auto;
+    }
+    
+    .imagem--email a {
+        color: #4dadb5;
+        text-align: center;
+    }
+    
+    
+    .formulario {
+        padding: 5px 0px;
+        height: 300px;
+        max-width: 340px;
+    }
+    
+    .formulario form [type='text'] {
+        width: 100%;
+        padding: 8px;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid #dedfdf;
+    }
+    
+    .formulario form [type='text']::placeholder {
+        font-size: 15px;
+    }
+    
+    
+    .formulario form [type='tel'] {
+        width: 100%;
+        padding: 8px;
+        margin-left: 0px;
+    }
+
+    
+    .formulario form [type='email'] {
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width:320px) {
+
+
+    /* RESPONSIVO BANNER */
+     
+    .area-container {
+        height: 70vh;
+    }
+    
+    .container {
+        height: 70vh;
+    }
+    
+    .container h1 {
+        font-size: 40px;
+        text-align: center;
+    
+    }
+    
+    .container h2 {
+        color: white;
+        font-size: 15px;
+        text-align: center;
+    }
+
+
+
+    /* RESPONSIVO SERVIÇOS */
+
+    .foto1 img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 15px;
+    }
+
+
+
+    #geral2 {
+        margin-top: 20px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ebebeb;
+    }
+    
+    .area-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px;
+        margin-top: 40px;
+        height: auto;
+    }
+    
+    
+    .area-txt--foto {
+        display: flex;
+        align-items: center;
+    }
+    
+    #geral2 .text {
+        background-color: white;
+        text-align: center;
+        width: 300px;
+        padding: 10px 20px;
+        height: auto;
+    } 
+
+    
+    .imagem-about img {
+        width: 300px;
+        height: 300px;
+    }
+
+    
+
+    /* RESPONSIVO CONTATO */
+
+    
+    .text-form {
+        display: flex;
+        gap: 15px;
+        max-width: 300px;
+        margin-bottom: 70px;
+        
+    }
+    
+    .text-form .txt {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .text-form .txr p {
+        font-size: 13px;
+    }
+    
+    .imagem--email {
+        display: flex;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    
+    .imagem--email img {
+        width: 30px;
+        height: auto;
+    }
+    
+    .imagem--email a {
+        color: #4dadb5;
+        text-align: center;
+    }
+    
+    
+    .formulario {
+        padding: 5px 0px;
+        height: 300px;
+        max-width: 300px;
+    }
+    
+    .formulario form [type='text'] {
+        width: 100%;
+        padding: 8px;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid #dedfdf;
+    }
+    
+    .formulario form [type='text']::placeholder {
+        font-size: 15px;
+    }
+    
+    
+    .formulario form [type='tel'] {
+        width: 100%;
+        padding: 8px;
+        margin-left: 0px;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid #dedfdf;
+    }
+    
+    .formulario form [type='email'] {
+        width: 100%;
+    }
+
+}
